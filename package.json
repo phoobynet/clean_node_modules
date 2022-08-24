@@ -1,0 +1,27 @@
+{
+  "name": "clean_node_modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "start": "cnm ~/WebstormProjects/archive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "cnm": "./cli.js"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "^2.7.1"
+  }
+}
